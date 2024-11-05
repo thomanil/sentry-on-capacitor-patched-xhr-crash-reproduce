@@ -1,12 +1,14 @@
-## Created with Capacitor Create App
+## Reproduce sentry crash in capacitor project w. patched xhr
 
-This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app),
-and comes with a very minimal shell for building an app.
+Requires node 20+
 
-### Running this example
+Requires iOS and/or Android development environment (does not matter which one), see setup instructions in
+https://capacitorjs.com/docs/getting-started/environment-setup
 
-To run the provided example, you can use `npm start` command.
+To build the sample webapp and rig it inside the ios and android projects, run the `setup-apps-for-testing.sh` script.
 
-```bash
-npm start
-```
+Then, open the android/ project in Android Studio, or the ios/ project in XCode, and manually launch the apps from
+either of those envs.
+
+
+
