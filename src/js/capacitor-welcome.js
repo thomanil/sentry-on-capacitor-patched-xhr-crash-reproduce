@@ -62,7 +62,7 @@ window.customElements.define(
       </capacitor-welcome-titlebar>
       <main>
         <p>
-           Trying to init Sentry...
+           Trying to init Sentry here, alert() result. Reload/relaunch the app to retry.
         </p>
       </main>
     </div>
