@@ -3,6 +3,12 @@
   "appName": "sentry-crash-reproduce",
   "webDir": "dist",
   "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    },
+    "CapacitorCookies": {
+      "enabled": true
+    },
     "SplashScreen": {
       "launchShowDuration": 0
     }

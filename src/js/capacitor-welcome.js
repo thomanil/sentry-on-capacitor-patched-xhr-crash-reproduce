@@ -1,5 +1,5 @@
 import { SplashScreen } from '@capacitor/splash-screen';
-import { Camera } from '@capacitor/camera';
+import { CapacitorHttp } from '@capacitor/core';
 import * as Sentry from '@sentry/browser';
 
 window.customElements.define(
@@ -100,15 +100,13 @@ window.customElements.define(
   },
 );
 
-
-try {
-    Sentry.init({
-        dsn: "https://61596f36cbc4ef77a50cec9f0370dad4@o4507084828049408.ingest.de.sentry.io/4507140464246864"
-        // ...
-    });
-
-} catch (e) {
-    alert("Failed to run Sentry.init(), caught exception "+e);
-}
-
-alert("Successfully ran Sentry.init()");
+setTimeout(() => {
+    try {
+        Sentry.init({
+            dsn: "https://61596f36cbc4ef77a50cec9f0370dad4@o4507084828049408.ingest.de.sentry.io/4507140464246864",
+        });
+        alert("Successfully ran Sentry.init()");
+    } catch (e) {
+        alert("Failed to run Sentry.init(), caught exception "+e);
+    }
+}, 1000);
