@@ -38,5 +38,5 @@ Connected devices can also become visible if you turn on Settings->Safari->Advan
 
 Currently running on @sentry/browser 8.33.1, which results in a crash when you start the app.
 
-Downgrading to 7.119.2 makes it work.
+Downgrading to 7.119.2 makes the crash go away.
 
