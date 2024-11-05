@@ -36,7 +36,7 @@ Connected devices can also become visible if you turn on Settings->Safari->Advan
 ## Sentry versions tested by author
 
 
-Currently running on @sentry/browser 8.33.1, which results in a crash when you start the app.
+Currently running on @sentry/browser 8.33.1, which results in thrown exception from Sentry when you start the app.
 
 Downgrading to 7.119.2 makes the crash go away.
 
