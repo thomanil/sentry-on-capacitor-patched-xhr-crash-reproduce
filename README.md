@@ -1,5 +1,7 @@
 ## Reproduce sentry crash in capacitor project w. patched xhr
 
+Sentry.init crashes when launched from a webapp wrapped inside a Capacitor-built native mobile app, when using the capacitor/http plugin (this plugin patches xhr requests, and Sentry ends up crashing during init)
+
 ### Setup/Installation/Running
 
 Requires node 20+
