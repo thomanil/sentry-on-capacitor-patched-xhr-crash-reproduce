@@ -1,11 +1,12 @@
-Sentry init crash on Capacitor-patched xhr - reproduce
-=
+## Created with Capacitor Create App
 
+This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app),
+and comes with a very minimal shell for building an app.
 
+### Running this example
 
-In a Capacitor-wrapped app project (web distributed as ios and/or android native app), recent versions of Sentry crash during init
-when launched in a runtime where the @capacitor/http plugin has patched xhr.
+To run the provided example, you can use `npm start` command.
 
-Requires xcode and/or android studio installed in dev env to test (instructions here in the Capacitor project)
-
-Requires node 20+.
+```bash
+npm start
+```

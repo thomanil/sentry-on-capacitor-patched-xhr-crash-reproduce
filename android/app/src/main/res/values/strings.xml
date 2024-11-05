@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">sentry-crash-reproduce</string>
+    <string name="title_activity_main">sentry-crash-reproduce</string>
+    <string name="package_name">com.reproduce</string>
+    <string name="custom_url_scheme">com.reproduce</string>
+</resources>

@@ -1,0 +1,10 @@
+{
+  "appId": "com.reproduce",
+  "appName": "sentry-crash-reproduce",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
