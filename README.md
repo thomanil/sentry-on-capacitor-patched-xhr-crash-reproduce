@@ -5,7 +5,7 @@
 Requires node 20+
 
 Requires iOS and/or Android development environment (does not matter which one), see setup instructions in
-https://capacitorjs.com/docs/getting-started/environment-setup
+https://capacitorjs.com/docs/getting-started/environment-setup if you do not already have one of those dev envs ready.
 
 
 To build the sample webapp and synching it to the ios and android projects, run the `setup-apps-for-testing.sh` script.
