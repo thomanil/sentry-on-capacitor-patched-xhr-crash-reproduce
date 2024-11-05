@@ -16,6 +16,10 @@ After building and synching the app: Open the android/ project in Android Studio
 either of those envs.
 
 
+![image](https://github.com/user-attachments/assets/190c8ce7-6bed-43e3-8210-5e5db79cdba0)
+
+
+
 ## Debugging
 
 To see what is happening in the app _eg. console.log output or errors_, you can use the Chrome DevTools for Android, or Safari DevTools for iOS.
@@ -33,3 +37,4 @@ Connected devices can also become visible if you turn on Settings->Safari->Advan
 Currently running on @sentry/browser 8.33.1, which results in a crash when you start the app.
 
 Downgrading to 7.119.2 makes it work.
+
